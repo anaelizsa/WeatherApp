@@ -11,7 +11,7 @@ const fetchWeather = async() => {
         return;
     }
     weatherDataSection.style.display = "block";
-    const apiKey = "";
+    const apiKey = "INSERT APIKEY HERE";
 
     const getLonAndLat = async() => {
         const countryCode = 52;
